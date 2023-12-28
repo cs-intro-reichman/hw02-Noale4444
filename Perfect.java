@@ -14,7 +14,7 @@ public class Perfect {
     if(sum == N) {
     	System.out.println(s);
     } else 
-    System.out.println(N+" is not perfect number ");
+    System.out.println(N+" is not a perfect number ");
 
      
 
