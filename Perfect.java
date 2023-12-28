@@ -4,7 +4,7 @@ public class Perfect {
 	
 	int N = Integer.parseInt(args[0]);
 	int sum = 1;
-	String s = N+" is a Perfect number since "+N+" = 1";	
+	String s = N+" is a perfect number since "+N+" = 1";	
     
     for(int i = 2; i < N; i++) { 
     if(N % i == 0) {
@@ -14,7 +14,7 @@ public class Perfect {
     if(sum == N) {
     	System.out.println(s);
     } else 
-    System.out.println(N+" is not Perfect number ");
+    System.out.println(N+" is not perfect number ");
 
      
 
